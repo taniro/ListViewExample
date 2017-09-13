@@ -54,5 +54,9 @@ public class MainActivity extends AppCompatActivity {
         frutaArrayList.add((new Fruta("Kiwi", R.drawable.fruit)));
         frutaArrayList.add((new Fruta("Morango", R.drawable.fruit)));
 
+        for (int i = 0; i<50000; i++ ){
+            frutaArrayList.add(new Fruta("Fruta "+i, R.drawable.fruit));
+        }
+
     }
 }
